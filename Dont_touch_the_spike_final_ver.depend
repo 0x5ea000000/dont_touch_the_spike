@@ -1,0 +1,1281 @@
+# depslib dependency file v1.0
+1556867107 source:d:\c++\project\dont_touch_the_spike_final_ver\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"Bird.h"
+	"Spike.h"
+	"Background.h"
+	"MainControl.h"
+
+1557597472 source:d:\c++\project\dont_touch_the_spike_final_ver\src\background.cpp
+	"Background.h"
+
+1556995895 d:\c++\project\dont_touch_the_spike_final_ver\include\background.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\begin_code.h
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\close_code.h
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1557584845 d:\c++\project\dont_touch_the_spike_final_ver\include\texture.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+
+1557768136 d:\c++\project\dont_touch_the_spike_final_ver\include\constant.h
+	<string>
+
+1557639043 source:d:\c++\project\dont_touch_the_spike_final_ver\src\bird.cpp
+	"Bird.h"
+
+1557160568 d:\c++\project\dont_touch_the_spike_final_ver\include\bird.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1556869171 source:d:\c++\project\dont_touch_the_spike_final_ver\src\button.cpp
+	"Button.h"
+
+1556867549 d:\c++\project\dont_touch_the_spike_final_ver\include\button.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1557674961 source:d:\c++\project\dont_touch_the_spike_final_ver\src\classicmode.cpp
+	"ClassicMode.h"
+
+1557674961 d:\c++\project\dont_touch_the_spike_final_ver\include\classicmode.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Rock.h"
+	"Item.h"
+	"Score.h"
+	"Bird.h"
+	"Background.h"
+	"Button.h"
+	"Spike.h"
+	"constant.h"
+	"MainMenu.h"
+	"time.h"
+	"random"
+
+1557580493 d:\c++\project\dont_touch_the_spike_final_ver\include\item.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Bird.h"
+	"Texture.h"
+	"constant.h"
+	"time.h"
+	"random"
+
+1557641799 d:\c++\project\dont_touch_the_spike_final_ver\include\score.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1557310133 d:\c++\project\dont_touch_the_spike_final_ver\include\spike.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1557687692 d:\c++\project\dont_touch_the_spike_final_ver\include\mainmenu.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Bird.h"
+	"Background.h"
+	"Button.h"
+	"Spike.h"
+	"constant.h"
+	"Score.h"
+
+1557640879 source:d:\c++\project\dont_touch_the_spike_final_ver\src\duelmode.cpp
+	"DuelMode.h"
+
+1556986979 d:\c++\project\dont_touch_the_spike_final_ver\include\duelmode.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Player.h"
+	"ClassicMode.h"
+
+1556987117 d:\c++\project\dont_touch_the_spike_final_ver\include\player.h
+	"Bird.h"
+
+1556810088 source:d:\c++\project\dont_touch_the_spike_final_ver\src\hardbird.cpp
+	"HardBird.h"
+
+1556810088 d:\c++\project\dont_touch_the_spike_final_ver\include\hardbird.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+	"Bird.h"
+
+1557888932 source:d:\c++\project\dont_touch_the_spike_final_ver\src\hardmode.cpp
+	"HardMode.h"
+
+1556980170 d:\c++\project\dont_touch_the_spike_final_ver\include\hardmode.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"ClassicMode.h"
+
+1556810088 source:d:\c++\project\dont_touch_the_spike_final_ver\src\hardspike.cpp
+	"HardSpike.h"
+
+1556810088 d:\c++\project\dont_touch_the_spike_final_ver\include\hardspike.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+	"Spike.h"
+
+1557595001 source:d:\c++\project\dont_touch_the_spike_final_ver\src\item.cpp
+	"Item.h"
+
+1557768889 source:d:\c++\project\dont_touch_the_spike_final_ver\src\maincontrol.cpp
+	"MainControl.h"
+	<fstream>
+
+1557768097 d:\c++\project\dont_touch_the_spike_final_ver\include\maincontrol.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Item.h"
+	"Score.h"
+	"Bird.h"
+	"Background.h"
+	"Button.h"
+	"Spike.h"
+	"constant.h"
+	"MainMenu.h"
+	"ClassicMode.h"
+	"HardMode.h"
+	"DuelMode.h"
+	"CaveMode.h"
+	"BotMode.h"
+
+1557900864 source:d:\c++\project\dont_touch_the_spike_final_ver\src\mainmenu.cpp
+	"MainMenu.h"
+
+1557901305 source:d:\c++\project\dont_touch_the_spike_final_ver\src\player.cpp
+	"Player.h"
+
+1557688591 source:d:\c++\project\dont_touch_the_spike_final_ver\src\score.cpp
+	"Score.h"
+
+1557901350 source:d:\c++\project\dont_touch_the_spike_final_ver\src\spike.cpp
+	"Spike.h"
+	"time.h"
+	"random"
+
+1557584845 source:d:\c++\project\dont_touch_the_spike_final_ver\src\texture.cpp
+	"Texture.h"
+
+1556987117 d:\c++\project\dont_touch_the_spike_final_ver\include\rock.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1556997795 source:d:\c++\project\dont_touch_the_spike_final_ver\src\rock.cpp
+	"Rock.h"
+	"time.h"
+	"random"
+
+1557648374 source:d:\c++\project\dont_touch_the_spike_final_ver\src\cavemode.cpp
+	"CaveMode.h"
+
+1557643113 d:\c++\project\dont_touch_the_spike_final_ver\include\cavemode.h
+	"ClassicMode.h"
+
+1557858981 source:d:\c++\project\dont_touch_the_spike_final_ver\src\bot.cpp
+	"Bot.h"
+
+1557857729 d:\c++\project\dont_touch_the_spike_final_ver\include\bot.h
+	<random>
+	<time.h>
+	"Player.h"
+	"Spike.h"
+
+1557768791 d:\c++\project\dont_touch_the_spike_final_ver\include\botmode.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Player.h"
+	"Bot.h"
+	"DuelMode.h"
+
+1557858255 source:d:\c++\project\dont_touch_the_spike_final_ver\src\botmode.cpp
+	"BotMode.h"
+
+1556867107 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"Bird.h"
+	"Spike.h"
+	"Background.h"
+	"MainControl.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\begin_code.h
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\close_code.h
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1556810087 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\sdl\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1557160568 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\bird.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1557584845 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\texture.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+
+1557768136 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\constant.h
+	<string>
+
+1557310133 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\spike.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1556995895 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\background.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1557768097 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\maincontrol.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Item.h"
+	"Score.h"
+	"Bird.h"
+	"Background.h"
+	"Button.h"
+	"Spike.h"
+	"constant.h"
+	"MainMenu.h"
+	"ClassicMode.h"
+	"HardMode.h"
+	"DuelMode.h"
+	"CaveMode.h"
+	"BotMode.h"
+
+1557580493 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\item.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Bird.h"
+	"Texture.h"
+	"constant.h"
+	"time.h"
+	"random"
+
+1557641799 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\score.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1556867549 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\button.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1557687692 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\mainmenu.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Bird.h"
+	"Background.h"
+	"Button.h"
+	"Spike.h"
+	"constant.h"
+	"Score.h"
+
+1557674961 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\classicmode.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Rock.h"
+	"Item.h"
+	"Score.h"
+	"Bird.h"
+	"Background.h"
+	"Button.h"
+	"Spike.h"
+	"constant.h"
+	"MainMenu.h"
+	"time.h"
+	"random"
+
+1556987117 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\rock.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Texture.h"
+	"constant.h"
+
+1556980170 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\hardmode.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"ClassicMode.h"
+
+1556986979 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\duelmode.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Player.h"
+	"ClassicMode.h"
+
+1556987117 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\player.h
+	"Bird.h"
+
+1558022408 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\cavemode.h
+	"ClassicMode.h"
+
+1557768791 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\botmode.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"Player.h"
+	"Bot.h"
+	"DuelMode.h"
+
+1557857729 d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\include\bot.h
+	<random>
+	<time.h>
+	"Player.h"
+	"Spike.h"
+
+1557597472 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\background.cpp
+	"Background.h"
+
+1557639043 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\bird.cpp
+	"Bird.h"
+
+1557902413 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\bot.cpp
+	"Bot.h"
+
+1557858255 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\botmode.cpp
+	"BotMode.h"
+
+1556869171 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\button.cpp
+	"Button.h"
+
+1557674961 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\classicmode.cpp
+	"ClassicMode.h"
+
+1557640879 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\duelmode.cpp
+	"DuelMode.h"
+
+1557888932 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\hardmode.cpp
+	"HardMode.h"
+
+1557595001 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\item.cpp
+	"Item.h"
+
+1557768889 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\maincontrol.cpp
+	"MainControl.h"
+	<fstream>
+
+1557900864 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\mainmenu.cpp
+	"MainMenu.h"
+
+1557901305 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\player.cpp
+	"Player.h"
+
+1556997795 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\rock.cpp
+	"Rock.h"
+	"time.h"
+	"random"
+
+1557688591 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\score.cpp
+	"Score.h"
+
+1557901350 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\spike.cpp
+	"Spike.h"
+	"time.h"
+	"random"
+
+1557584845 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\texture.cpp
+	"Texture.h"
+
+1558022420 source:d:\c++\project\group19_robokick\dont_touch_the_spike_final_ver\src\cavemode.cpp
+	"CaveMode.h"
+

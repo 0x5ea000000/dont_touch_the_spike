@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Dont_touch_the_spike_final_ver" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Dont_touch_the_spike_final_ver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="SDL/include/SDL2" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf" />
+					<Add directory="SDL/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Dont_touch_the_spike_final_ver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Background.h" />
+		<Unit filename="include/Bird.h" />
+		<Unit filename="include/Bot.h" />
+		<Unit filename="include/BotMode.h" />
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/CaveMode.h" />
+		<Unit filename="include/ClassicMode.h" />
+		<Unit filename="include/DuelMode.h" />
+		<Unit filename="include/HardMode.h" />
+		<Unit filename="include/Item.h" />
+		<Unit filename="include/MainControl.h" />
+		<Unit filename="include/MainMenu.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Rock.h" />
+		<Unit filename="include/Score.h" />
+		<Unit filename="include/Spike.h" />
+		<Unit filename="include/Texture.h" />
+		<Unit filename="include/constant.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Background.cpp" />
+		<Unit filename="src/Bird.cpp" />
+		<Unit filename="src/Bot.cpp" />
+		<Unit filename="src/BotMode.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/CaveMode.cpp" />
+		<Unit filename="src/ClassicMode.cpp" />
+		<Unit filename="src/DuelMode.cpp" />
+		<Unit filename="src/HardMode.cpp" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/MainControl.cpp" />
+		<Unit filename="src/MainMenu.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Rock.cpp" />
+		<Unit filename="src/Score.cpp" />
+		<Unit filename="src/Spike.cpp" />
+		<Unit filename="src/Texture.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
